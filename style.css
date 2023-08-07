@@ -61,11 +61,29 @@ html, body {
     position: absolute;
     -webkit-text-stroke-color: #000;
     -webkit-text-stroke-width: 2px ;
-    left: 49.4%;
+    left: 49.5%;
     top: 0px;
     white-space: nowrap;
     transform: translate(-50%,0);
     font-weight: 900;
     font-style: italic;
     color: transparent;
+}
+
+#image {
+    position: absolute;
+    top: 25%;
+    left:20%;
+    height: 65%;
+    width: 60%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
